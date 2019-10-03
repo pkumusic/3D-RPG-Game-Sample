@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 73be9633513854604baae3aa06041436
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Cube
+    100006: Fingers01_L
+    100008: Fingers01_R
+    100010: Fingers02_L
+    100012: Fingers02_R
+    100014: Foot_L
+    100016: Foot_R
+    100018: Hand_L
+    100020: Hand_R
+    100022: Head
+    100024: Hips
+    100026: Lower_Arm_L
+    100028: Lower_Arm_R
+    100030: Lower_Leg_L
+    100032: Lower_Leg_R
+    100034: Neck
+    100036: //RootNode
+    100038: Shoulder_L
+    100040: Shoulder_R
+    100042: Spine
+    100044: Thumb01_L
+    100046: Thumb01_R
+    100048: Thumb02_L
+    100050: Thumb02_R
+    100052: Toes_L
+    100054: Toes_R
+    100056: Upper_Arm_L
+    100058: Upper_Arm_R
+    100060: Upper_Leg_L
+    100062: Upper_Leg_R
+    100064: Fingers01.L
+    100066: Fingers01.R
+    100068: Fingers02.L
+    100070: Fingers02.L_end
+    100072: Fingers02.R
+    100074: Fingers02.R_end
+    100076: Foot.L
+    100078: Foot.R
+    100080: Hand.L
+    100082: Hand.R
+    100084: Head_end
+    100086: Leg IK.L
+    100088: Leg IK.L_end
+    100090: Leg IK.R
+    100092: Leg IK.R_end
+    100094: Lower Arm.L
+    100096: Lower Arm.R
+    100098: Lower Leg.L
+    100100: Lower Leg.R
+    100102: Pole Target.L
+    100104: Pole Target.L_end
+    100106: Pole Target.R
+    100108: Pole Target.R_end
+    100110: Shoulder.L
+    100112: Shoulder.R
+    100114: Thumb01.L
+    100116: Thumb01.R
+    100118: Thumb02.L
+    100120: Thumb02.L_end
+    100122: Thumb02.R
+    100124: Thumb02.R_end
+    100126: Toes.L
+    100128: Toes.L_end
+    100130: Toes.R
+    100132: Toes.R_end
+    100134: Upper Arm.L
+    100136: Upper Arm.R
+    100138: Upper Leg.L
+    100140: Upper Leg.R
+    400000: Armature
+    400002: Chest
+    400004: Cube
+    400006: Fingers01_L
+    400008: Fingers01_R
+    400010: Fingers02_L
+    400012: Fingers02_R
+    400014: Foot_L
+    400016: Foot_R
+    400018: Hand_L
+    400020: Hand_R
+    400022: Head
+    400024: Hips
+    400026: Lower_Arm_L
+    400028: Lower_Arm_R
+    400030: Lower_Leg_L
+    400032: Lower_Leg_R
+    400034: Neck
+    400036: //RootNode
+    400038: Shoulder_L
+    400040: Shoulder_R
+    400042: Spine
+    400044: Thumb01_L
+    400046: Thumb01_R
+    400048: Thumb02_L
+    400050: Thumb02_R
+    400052: Toes_L
+    400054: Toes_R
+    400056: Upper_Arm_L
+    400058: Upper_Arm_R
+    400060: Upper_Leg_L
+    400062: Upper_Leg_R
+    400064: Fingers01.L
+    400066: Fingers01.R
+    400068: Fingers02.L
+    400070: Fingers02.L_end
+    400072: Fingers02.R
+    400074: Fingers02.R_end
+    400076: Foot.L
+    400078: Foot.R
+    400080: Hand.L
+    400082: Hand.R
+    400084: Head_end
+    400086: Leg IK.L
+    400088: Leg IK.L_end
+    400090: Leg IK.R
+    400092: Leg IK.R_end
+    400094: Lower Arm.L
+    400096: Lower Arm.R
+    400098: Lower Leg.L
+    400100: Lower Leg.R
+    400102: Pole Target.L
+    400104: Pole Target.L_end
+    400106: Pole Target.R
+    400108: Pole Target.R_end
+    400110: Shoulder.L
+    400112: Shoulder.R
+    400114: Thumb01.L
+    400116: Thumb01.R
+    400118: Thumb02.L
+    400120: Thumb02.L_end
+    400122: Thumb02.R
+    400124: Thumb02.R_end
+    400126: Toes.L
+    400128: Toes.L_end
+    400130: Toes.R
+    400132: Toes.R_end
+    400134: Upper Arm.L
+    400136: Upper Arm.R
+    400138: Upper Leg.L
+    400140: Upper Leg.R
+    4300000: Cube
+    7400000: Default Take
+    7400002: Idle
+    7400004: Run
+    7400006: Walk
+    7400008: Armature|Idle
+    7400010: Armature|Run
+    7400012: Armature|Walk
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 3ed725f7d4fa6408cab10eb306af6454, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
