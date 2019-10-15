@@ -6,6 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class PlayerMotor : MonoBehaviour
 {
+    Transform target;   // Target to follow
     NavMeshAgent agent;
 
     // Start is called before the first frame update
@@ -14,9 +15,39 @@ public class PlayerMotor : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
     }
 
+    void Update()
+    {
+        if (target != null)
+        {
+            MoveToPoint(target.position);
+            FaceTarget();
+        }
+    }
+
     // Update is called once per frame
     public void MoveToPoint(Vector3 point)
     {
         agent.SetDestination(point);
+    }
+
+    public void FollowTarget(Interactable newTarget)
+    {
+        agent.stoppingDistance = newTarget.radius * 0.8f;
+        agent.updateRotation = false;
+        target = newTarget.InteractionTransform;
+    }
+
+    public void StopFollowingTarget()
+    {
+        agent.stoppingDistance = 0f;
+        agent.updateRotation = true;
+        target = null;
+    }
+
+    void FaceTarget()
+    {
+        Vector3 direction = (target.position - transform.position).normalized;
+        Quaternion LookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, LookRotation, Time.deltaTime * 5f);
     }
 }
