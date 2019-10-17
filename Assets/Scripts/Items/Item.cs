@@ -8,4 +8,11 @@ public class Item : ScriptableObject
     public new string name = "New Item";
     public Sprite icon = null;
     public bool IsDefaultItem = false; // Equipted by default and not in inventory.
+
+    public virtual void Use()
+    {
+        // Use the item
+        // Something might happen
+        Debug.Log("Using: " + name);
+    }
 }
