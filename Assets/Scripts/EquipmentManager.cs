@@ -49,6 +49,7 @@ public class EquipmentManager : MonoBehaviour
             onEquipmentChangedCallback.Invoke(newEquipment, oldEquipment);
         }
         currentEquipment[slotIndex] = newEquipment;
+        SetEquipmentBlendShapes(newEquipment, 100);
 
         SkinnedMeshRenderer newMesh = Instantiate<SkinnedMeshRenderer>(newEquipment.mesh);
         newMesh.transform.parent = targetMesh.transform;
@@ -66,6 +67,7 @@ public class EquipmentManager : MonoBehaviour
             }
 
             Equipment oldEquipment = currentEquipment[slotIndex];
+            SetEquipmentBlendShapes(oldEquipment, 0);
             inventory.Add(oldEquipment);
             currentEquipment[slotIndex] = null;
             if (onEquipmentChangedCallback != null)
@@ -81,6 +83,14 @@ public class EquipmentManager : MonoBehaviour
         for (int i=0; i<currentEquipment.Length; i++)
         {
             Unequip(i);
+        }
+    }
+
+    void SetEquipmentBlendShapes(Equipment item, int weight)
+    {
+        foreach(EquipmentMeshRegion blendShape in item.coveredMeshRegion)
+        {
+            targetMesh.SetBlendShapeWeight((int)blendShape, weight);
         }
     }
 
