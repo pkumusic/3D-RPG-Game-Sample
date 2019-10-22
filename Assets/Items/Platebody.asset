@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41f64f9e684fc2d459487480aaefddd7, type: 3}
-  m_Name: Helmet of Protection
+  m_Name: Platebody
   m_EditorClassIdentifier: 
-  name: Helmet of Protection
-  icon: {fileID: 21300000, guid: 0a90ca4e82b326b4f809230bb3f9aede, type: 3}
+  name: Platebody
+  icon: {fileID: 21300000, guid: 72fc48a70d6329148a3d29fa1b7efc32, type: 3}
   IsDefaultItem: 0
-  equipmentSlot: 0
-  armorModifier: 3
+  equipmentSlot: 1
+  mesh: {fileID: 1415958685861777089, guid: edd33502e6867a8499c50a5da97f65bb, type: 3}
+  armorModifier: 5
   damageModifier: 0
