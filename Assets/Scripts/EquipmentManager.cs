@@ -41,7 +41,6 @@ public class EquipmentManager : MonoBehaviour
     {
         int slotIndex = (int)newEquipment.equipmentSlot;
         Equipment oldEquipment = Unequip(slotIndex);
-
         if (onEquipmentChangedCallback != null)
         {
             onEquipmentChangedCallback.Invoke(newEquipment, oldEquipment);
